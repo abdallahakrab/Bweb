@@ -16,6 +16,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ErrorMessageComponent } from './components/error-message/error-message.component';
 import { HomeSec1Component } from './components/home-sec1/home-sec1.component';
 import { ProfileModule } from './modules/profile/profile.module';
+import { SharedModule } from './modules/shared-module/shared-module.module';
+
 
 
 @NgModule({
@@ -24,10 +26,10 @@ import { ProfileModule } from './modules/profile/profile.module';
     HeaderComponent,
     ArticleImageComponent,
     TextButtonComponent,
-    ProfileFormComponent,
     HomeComponent,
     ErrorMessageComponent,
-    HomeSec1Component
+    HomeSec1Component,
+    SharedModule
     
   ],
   imports: [
