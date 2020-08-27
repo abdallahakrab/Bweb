@@ -14,7 +14,7 @@ import { ProfileFormComponent } from './components/profile-form/profile-form.com
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorMessageComponent } from './components/error-message/error-message.component';
-import { HomeSec1Component } from './components/home-sec1/home-sec1.component';
+
 import { ProfileModule } from './modules/profile/profile.module';
 import { SharedModule } from './modules/shared-module/shared-module.module';
 
@@ -28,7 +28,6 @@ import { SharedModule } from './modules/shared-module/shared-module.module';
     TextButtonComponent,
     HomeComponent,
     ErrorMessageComponent,
-    HomeSec1Component,
     ProfileFormComponent
     
     
