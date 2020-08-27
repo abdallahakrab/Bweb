@@ -29,7 +29,8 @@ import { SharedModule } from './modules/shared-module/shared-module.module';
     HomeComponent,
     ErrorMessageComponent,
     HomeSec1Component,
-    SharedModule
+    ProfileFormComponent
+    
     
   ],
   imports: [
@@ -39,7 +40,8 @@ import { SharedModule } from './modules/shared-module/shared-module.module';
     ReactiveFormsModule,
     NoopAnimationsModule,
     MatAutocompleteModule,
-    MatInputModule
+    MatInputModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
